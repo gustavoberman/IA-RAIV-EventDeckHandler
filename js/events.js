@@ -98,49 +98,73 @@ function loadResource() {
 }
 
 function buildDeck() {
-    difficulty_level_arr = difficultyM.get(difficultyDropDown.textContent);
 
     loadResource();
-    num_t1 = difficulty_level_arr[0];
-    num_t2 = difficulty_level_arr[1];
-    num_t3 = difficulty_level_arr[2];
 
-    console.log("Building " + num_t1 + "," + num_t2 + "," + num_t3);
+    if (difficultyDropDown.textContent === "All Events") {
 
-    if (num_t1 == -1) {
-        //standard (variable/unpredictable difficult) need speical handle d_v_standard
-        for (let i = 0; i < max_evt_deck_size; i++) {
-            let _t = getRandomIntInclusive(1, 3);
-            if (_t == 1) {
-                evt = evt_t1.splice(evt_t1.length * Math.random() | 0, 1)[0];
-            }
-            else if (_t == 2) {
-                evt = evt_t2.splice(evt_t2.length * Math.random() | 0, 1)[0];
-            }
-            else {
-                evt = evt_t3.splice(evt_t3.length * Math.random() | 0, 1)[0];
-            }
+        //evt_deck = [].concat(evt_t1, evt_t2, evt_t3);
+        for (let i = 0; i < evt_t1.length; i++) {
+            evt = evt_t1[i];
+            evt.set = "S";
+            evt_deck.push(evt);
+        }
+        for (let i = 0; i < evt_t2.length; i++) {
+            evt = evt_t2[i];
+            evt.set = "S";
+            evt_deck.push(evt);
+        }
+        for (let i = 0; i < evt_t3.length; i++) {
+            evt = evt_t3[i];
             evt.set = "S";
             evt_deck.push(evt);
         }
     }
     else {
-        for (let i = 0; i < num_t1; i++) {
-            evt = evt_t1.splice(evt_t1.length * Math.random() | 0, 1)[0];
-            evt.set = "S";
-            evt_deck.push(evt);
-        }
+        difficulty_level_arr = difficultyM.get(difficultyDropDown.textContent);
 
-        for (let i = 0; i < num_t2; i++) {
-            evt = evt_t2.splice(evt_t2.length * Math.random() | 0, 1)[0];
-            evt.set = "S";
-            evt_deck.push(evt);
-        }
 
-        for (let i = 0; i < num_t3; i++) {
-            evt = evt_t3.splice(evt_t3.length * Math.random() | 0, 1)[0];
-            evt.set = "S";
-            evt_deck.push(evt);
+        num_t1 = difficulty_level_arr[0];
+        num_t2 = difficulty_level_arr[1];
+        num_t3 = difficulty_level_arr[2];
+
+        console.log("Building " + num_t1 + "," + num_t2 + "," + num_t3);
+
+        if (num_t1 == -1) {
+            //standard (variable/unpredictable difficult) need speical handle d_v_standard
+            for (let i = 0; i < max_evt_deck_size; i++) {
+                let _t = getRandomIntInclusive(1, 3);
+                if (_t == 1) {
+                    evt = evt_t1.splice(evt_t1.length * Math.random() | 0, 1)[0];
+                }
+                else if (_t == 2) {
+                    evt = evt_t2.splice(evt_t2.length * Math.random() | 0, 1)[0];
+                }
+                else {
+                    evt = evt_t3.splice(evt_t3.length * Math.random() | 0, 1)[0];
+                }
+                evt.set = "S";
+                evt_deck.push(evt);
+            }
+        }
+        else {
+            for (let i = 0; i < num_t1; i++) {
+                evt = evt_t1.splice(evt_t1.length * Math.random() | 0, 1)[0];
+                evt.set = "S";
+                evt_deck.push(evt);
+            }
+
+            for (let i = 0; i < num_t2; i++) {
+                evt = evt_t2.splice(evt_t2.length * Math.random() | 0, 1)[0];
+                evt.set = "S";
+                evt_deck.push(evt);
+            }
+
+            for (let i = 0; i < num_t3; i++) {
+                evt = evt_t3.splice(evt_t3.length * Math.random() | 0, 1)[0];
+                evt.set = "S";
+                evt_deck.push(evt);
+            }
         }
     }
 
@@ -215,24 +239,7 @@ function getRandomIntInclusive(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
 }
 
-function saveDeck() {
-    var content = JSON.stringify(evt_deck, null, 2);
-    var blob = new Blob([content], {
-        type: "text/plain;charset=utf-16"
-    });
-    saveAs(blob, "events.json");
-}
-
-function loadDeck() {
-    var fileReader = new FileReader();
-    fileReader.onload = function (event) {
-        console.log(event.target.result);
-    }
-    var file = event.target.files[0];
-    fileReader.readAsText(file);
-}
-
-function addRebalAidCard() {
+function addRebelAidCard() {
     let evt = evt_rebelAid.splice(evt_rebelAid.length * Math.random() | 0, 1)[0];
     evt.set = "R";
     evt_deck.push(evt);
@@ -304,14 +311,37 @@ function addRow(tbl, val_1, val_2, val_3, val_4) {
     tbl.appendChild(tr)
 }
 
-var openFile = function (event) {
-    var input = event.target;
+function saveDeck() {
+    var content = JSON.stringify(evt_deck, null, 2);
+    var blob = new Blob([content], {
+        type: "text/plain;charset=utf-16"
+    });
+    saveAs(blob, "events.json");
+}
 
-    var reader = new FileReader();
+function loadDeck(input) {
+    let file = input.files[0];
+    let reader = new FileReader();
+    reader.readAsText(file);
+
     reader.onload = function () {
-        var text = reader.result;
-        console.log(reader.result.substring(0, 200));
+        console.log("load file");
+        evt_deck = JSON.parse(reader.result);
+
+        eventDeckSizeHtmlElem.innerHTML = evt_deck.length;
+        discardedEventDeckSizeHtmlElem.innerHTML = evt_drew_deck.length;
+        drawBtn.disabled = false;
+        viewEventDeckBtn.disabled = false;
+        viewDrewEventDeckBtn.disabled = false;
+        viewInstandCardArea.innerHTML = '';
+        viewStandardGlobalCardArea.innerHTML = '';
+        viewSpeicalGlobalCardArea.innerHTML = '';
+        addRebelAidBtn.disabled = false;
+        addImperialAgendaBtn.disabled = false;
     };
-    reader.readAsText(input.files[0]);
-};
+
+    reader.onerror = function () {
+        console.log(reader.error);
+    };
+}
 
