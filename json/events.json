@@ -1,0 +1,364 @@
+{
+    "events": [
+        {
+            "name": "Electromagnetic Disruptors",
+            "tier": 1,
+            "id": 1,
+            "type": "G"
+        },
+        {
+            "name": "Assault Armor",
+            "tier": 1,
+            "id": 3,
+            "type": "I"
+        },
+        {
+            "name": "Combat Medic",
+            "tier": 1,
+            "id": 5,
+            "type": "I"
+        },
+        {
+            "name": "Heavy Pressure",
+            "tier": 1,
+            "id": 10,
+            "type": "G"
+        },
+        {
+            "name": "Hidden Detonators",
+            "tier": 1,
+            "id": 11,
+            "type": "I"
+        },
+        {
+            "name": "Jetpacks",
+            "tier": 1,
+            "id": 12,
+            "type": "G"
+        },
+        {
+            "name": "Prey Upon Doubt",
+            "tier": 1,
+            "id": 15,
+            "type": "G"
+        },
+        {
+            "name": "Riot Grenades",
+            "tier": 1,
+            "id": 17,
+            "type": "I"
+        },
+        {
+            "name": "Superior Mobility",
+            "tier": 1,
+            "id": 21,
+            "type": "G"
+        },
+        {
+            "name": "Surgical Strike",
+            "tier": 1,
+            "id": 23,
+            "type": "I"
+        },
+        {
+            "name": "Technical Support",
+            "tier": 1,
+            "id": 25,
+            "type": "G"
+        },
+        {
+            "name": "Weary",
+            "tier": 1,
+            "id": 26,
+            "type": "I"
+        },
+        {
+            "name": "Reactive Armor",
+            "tier": 1,
+            "id": 31,
+            "type": "G"
+        },
+        {
+            "name": "Sharpshooter",
+            "tier": 1,
+            "id": 33,
+            "type": "G"
+        },
+        {
+            "name": "In the Shadows",
+            "tier": 1,
+            "id": 38,
+            "type": "I"
+        },
+        {
+            "name": "Stealth",
+            "tier": 1,
+            "id": 39,
+            "type": "G"
+        },
+        {
+            "name": "Execution Squad",
+            "tier": 1,
+            "id": 40,
+            "type": "G"
+        },
+        {
+            "name": "Fearsome Presence",
+            "tier": 1,
+            "id": 44,
+            "type": "I"
+        },
+        {
+            "name": "Ringleader",
+            "tier": 1,
+            "id": 45,
+            "type": "G"
+        },
+        {
+            "name": "Devastating Legions",
+            "tier": 1,
+            "id": 49,
+            "type": "G"
+        },
+        {
+            "name": "Indomitable",
+            "tier": 1,
+            "id": 50,
+            "type": "G"
+        },
+        {
+            "name": "Embrace Fear",
+            "tier": 1,
+            "id": 55,
+            "type": "G"
+        },
+        {
+            "name": "Cloaking Device",
+            "tier": 2,
+            "id": 4,
+            "type": "G"
+        },
+        {
+            "name": "No Quarter",
+            "tier": 2,
+            "id": 13,
+            "type": "G"
+        },
+        {
+            "name": "Oppression",
+            "tier": 2,
+            "id": 14,
+            "type": "G"
+        },
+        {
+            "name": "Priority Shift",
+            "tier": 2,
+            "id": 16,
+            "type": "I"
+        },
+        {
+            "name": "Riot Suppression",
+            "tier": 2,
+            "id": 18,
+            "type": "G"
+        },
+        {
+            "name": "Shock Troopers",
+            "tier": 2,
+            "id": 19,
+            "type": "G"
+        },
+        {
+            "name": "Show of Force",
+            "tier": 2,
+            "id": 20,
+            "type": "G"
+        },
+        {
+            "name": "Superior Power",
+            "tier": 2,
+            "id": 22,
+            "type": "G"
+        },
+        {
+            "name": "Supervisory Agent",
+            "tier": 2,
+            "id": 27,
+            "type": "I"
+        },
+        {
+            "name": "Press On",
+            "tier": 2,
+            "id": 28,
+            "type": "G"
+        },
+        {
+            "name": "Noble Sacrifice",
+            "tier": 2,
+            "id": 29,
+            "type": "G"
+        },
+        {
+            "name": "Optimal Tactics",
+            "tier": 2,
+            "id": 30,
+            "type": "G"
+        },
+        {
+            "name": "Rapid Dominance",
+            "tier": 2,
+            "id": 32,
+            "type": "G"
+        },
+        {
+            "name": "Versatile Attack",
+            "tier": 2,
+            "id": 34,
+            "type": "I"
+        },
+        {
+            "name": "Knowledge of Attack",
+            "tier": 2,
+            "id": 35,
+            "type": "G"
+        },
+        {
+            "name": "Assassins",
+            "tier": 2,
+            "id": 36,
+            "type": "G"
+        },
+        {
+            "name": "Find The Weakeness",
+            "tier": 2,
+            "id": 37,
+            "type": "G"
+        },
+        {
+            "name": "I am on the Leader",
+            "tier": 2,
+            "id": 46,
+            "type": "G"
+        },
+        {
+            "name": "Punishing Force",
+            "tier": 2,
+            "id": 48,
+            "type": "G"
+        },
+        {
+            "name": "Mechanical Protocol",
+            "tier": 2,
+            "id": 52,
+            "type": "G"
+        },
+        {
+            "name": "Targeting Sensors",
+            "tier": 2,
+            "id": 53,
+            "type": "G"
+        },
+        {
+            "name": "Supernatural Vigor",
+            "tier": 2,
+            "id": 56,
+            "type": "G"
+        },
+        {
+            "name": "Unnatural Abilities",
+            "tier": 2,
+            "id": 57,
+            "type": "G"
+        },
+        {
+            "name": "Priority Shift",
+            "tier": 2,
+            "id": 59,
+            "type": "I"
+        },
+        {
+            "name": "Priority Shift",
+            "tier": 2,
+            "id": 60,
+            "type": "I"
+        },
+        {
+            "name": "Arc Blasters",
+            "tier": 3,
+            "id": 2,
+            "type": "G"
+        },
+        {
+            "name": "Combat Veterans",
+            "tier": 3,
+            "id": 6,
+            "type": "G"
+        },
+        {
+            "name": "Endless Ranks",
+            "tier": 3,
+            "id": 7,
+            "type": "G"
+        },
+        {
+            "name": "Exploit Weakness",
+            "tier": 3,
+            "id": 8,
+            "type": "G"
+        },
+        {
+            "name": "Failsafe",
+            "tier": 3,
+            "id": 9,
+            "type": "G"
+        },
+        {
+            "name": "Sustained Fire",
+            "tier": 3,
+            "id": 24,
+            "type": "G"
+        },
+        {
+            "name": "True Shadow",
+            "tier": 3,
+            "id": 41,
+            "type": "G"
+        },
+        {
+            "name": "Nowhere to Run",
+            "tier": 3,
+            "id": 42,
+            "type": "G"
+        },
+        {
+            "name": "Guild Hunters",
+            "tier": 3,
+            "id": 43,
+            "type": "G"
+        },
+        {
+            "name": "Leave Them to Me",
+            "tier": 3,
+            "id": 47,
+            "type": "I"
+        },
+        {
+            "name": "Blaster Emplacement",
+            "tier": 3,
+            "id": 51,
+            "type": "G"
+        },
+        {
+            "name": "Dark Resurgence",
+            "tier": 3,
+            "id": 54,
+            "type": "I"
+        },
+        {
+            "name": "Embrace Suffering",
+            "tier": 3,
+            "id": 58,
+            "type": "I"
+        }
+    ]
+}

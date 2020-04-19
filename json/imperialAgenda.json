@@ -1,0 +1,364 @@
+{
+    "imperialAgenda": [
+        {
+            "name": "A Dark Power",
+            "id": 1,
+            "type": "G"
+        },
+        {
+            "name": "As You Wish",
+            "id": 2,
+            "type": "I"
+        },
+        {
+            "name": "Fire At Will",
+            "id": 3,
+            "type": "I"
+        },
+        {
+            "name": "High-Value Target",
+            "id": 4,
+            "type": "G"
+        },
+        {
+            "name": "Hired Help",
+            "id": 5,
+            "type": "G"
+        },
+        {
+            "name": "Impending Doom",
+            "id": 6,
+            "type": "I"
+        },
+        {
+            "name": "Imperial Informants",
+            "id": 7,
+            "type": "I"
+        },
+        {
+            "name": "Imperial Operative",
+            "id": 8,
+            "type": "G"
+        },
+        {
+            "name": "Internal Affairs",
+            "id": 9,
+            "type": "I"
+        },
+        {
+            "name": "Interrogation Protocol",
+            "id": 10,
+            "type": "G"
+        },
+        {
+            "name": "ISB Enforcers",
+            "id": 11,
+            "type": "G"
+        },
+        {
+            "name": "Priority Shift",
+            "id": 12,
+            "type": "I"
+        },
+        {
+            "name": "Restorative Supplies",
+            "id": 13,
+            "type": "I"
+        },
+        {
+            "name": "Tactical Explosives",
+            "id": 14,
+            "type": "I"
+        },
+        {
+            "name": "Tactical Maneuvering",
+            "id": 15,
+            "type": "I"
+        },
+        {
+            "name": "Pride of the Rebellion",
+            "id": 16,
+            "type": "G"
+        },
+        {
+            "name": "Weakness Revealed",
+            "id": 17,
+            "type": "G"
+        },
+        {
+            "name": "Death Mark",
+            "id": 18,
+            "type": "G"
+        },
+        {
+            "name": "Strike And Subdue",
+            "id": 19,
+            "type": "I"
+        },
+        {
+            "name": "Data Security",
+            "id": 20,
+            "type": "G"
+        },
+        {
+            "name": "Counter-Strike",
+            "id": 21,
+            "type": "G"
+        },
+        {
+            "name": "Enhanced Armor",
+            "id": 22,
+            "type": "G"
+        },
+        {
+            "name": "Personal Shield Generator",
+            "id": 23,
+            "type": "I"
+        },
+        {
+            "name": "Bestial Fury",
+            "id": 24,
+            "type": "G"
+        },
+        {
+            "name": "Exposed to the Elements",
+            "id": 25,
+            "type": "I"
+        },
+        {
+            "name": "Unchained",
+            "id": 26,
+            "type": "I"
+        },
+        {
+            "name": "Feigned Retreat",
+            "id": 27,
+            "type": "I"
+        },
+        {
+            "name": "Hasty Ambush",
+            "id": 28,
+            "type": "I"
+        },
+        {
+            "name": "Call Your Shot",
+            "id": 29,
+            "type": "I"
+        },
+        {
+            "name": "Shoot First",
+            "id": 30,
+            "type": "I"
+        },
+        {
+            "name": "Jetpacks",
+            "id": 31,
+            "type": "G"
+        },
+        {
+            "name": "No Rest for the Weary",
+            "id": 32,
+            "type": "G"
+        },
+        {
+            "name": "Snap Fire",
+            "id": 33,
+            "type": "G"
+        },
+        {
+            "name": "Reinforcements En Route",
+            "id": 34,
+            "type": "G"
+        },
+        {
+            "name": "Survelliance Cams",
+            "id": 35,
+            "type": "G"
+        },
+        {
+            "name": "Costly Victory",
+            "id": 36,
+            "type": "G"
+        },
+        {
+            "name": "Selfless Devotion",
+            "id": 37,
+            "type": "G"
+        },
+        {
+            "name": "Gas Canisters",
+            "id": 38,
+            "type": "G"
+        },
+        {
+            "name": "Ongoing Research",
+            "id": 39,
+            "type": "I"
+        },
+        {
+            "name": "Best of the Best",
+            "id": 40,
+            "type": "G"
+        },
+        {
+            "name": "Pulling the Strings",
+            "id": 41,
+            "type": "I"
+        },
+        {
+            "name": "Firepower Upgrade",
+            "id": 42,
+            "type": "G"
+        },
+        {
+            "name": "Sabotaged Plans",
+            "id": 43,
+            "type": "I"
+        },
+        {
+            "name": "Inspiring Command",
+            "id": 44,
+            "type": "I"
+        },
+        {
+            "name": "By Any Means Necessary",
+            "id": 45,
+            "type": "G"
+        },
+        {
+            "name": "Military Presence",
+            "id": 46,
+            "type": "I"
+        },
+        {
+            "name": "Perpetual Reinforcement",
+            "id": 47,
+            "type": "G"
+        },
+        {
+            "name": "Grievous Wound",
+            "id": 48,
+            "type": "G"
+        },
+        {
+            "name": "Final Blast",
+            "id": 49,
+            "type": "G"
+        },
+        {
+            "name": "Trade Routes Disrupted",
+            "id": 50,
+            "type": "G"
+        },
+        {
+            "name": "Set for Stun",
+            "id": 51,
+            "type": "G"
+        },
+        {
+            "name": "To The Last Man",
+            "id": 52,
+            "type": "G"
+        },
+        {
+            "name": "Beaten Down",
+            "id": 53,
+            "type": "I"
+        },
+        {
+            "name": "Armored Division",
+            "id": 54,
+            "type": "G"
+        },
+        {
+            "name": "Explosive Shrapnel",
+            "id": 55,
+            "type": "G"
+        },
+        {
+            "name": "Under Surveillance",
+            "id": 56,
+            "type": "G"
+        },
+        {
+            "name": "Quiet Entry",
+            "id": 57,
+            "type": "G"
+        },
+        {
+            "name": "Trip Mine",
+            "id": 58,
+            "type": "I"
+        },
+        {
+            "name": "Furious Retaliation",
+            "id": 59,
+            "type": "I"
+        },
+        {
+            "name": "Head Hunting",
+            "id": 60,
+            "type": "G"
+        },
+        {
+            "name": "On Jabba's Orders",
+            "id": 61,
+            "type": "G"
+        },
+        {
+            "name": "Dewback Patrol",
+            "id": 62,
+            "type": "I"
+        },
+        {
+            "name": "Stealth Squad",
+            "id": 63,
+            "type": "G"
+        },
+        {
+            "name": "When They Least Expect It",
+            "id": 64,
+            "type": "I"
+        },
+        {
+            "name": "Ion Blasters",
+            "id": 65,
+            "type": "G"
+        },
+        {
+            "name": "Jawa Raid",
+            "id": 66,
+            "type": "I"
+        },
+        {
+            "name": "Critical Strikes",
+            "id": 67,
+            "type": "G"
+        },
+        {
+            "name": "For the Emperor",
+            "id": 68,
+            "type": "G"
+        },
+        {
+            "name": "Isolation",
+            "id": 69,
+            "type": "G"
+        },
+        {
+            "name": "Final Offer",
+            "id": 70,
+            "type": "I"
+        },
+        {
+            "name": "Piece By Piece",
+            "id": 71,
+            "type": "I"
+        },
+        {
+            "name": "Priority Shift",
+            "id": 72,
+            "type": "I"
+        }
+    ]
+}

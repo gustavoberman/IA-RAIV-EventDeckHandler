@@ -1,0 +1,82 @@
+body{
+    font-family: 'Tinos', serif;
+}
+
+.boarder {
+    border: 2px solid;
+}
+
+.card{
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+}
+
+a.card_img {
+    display: block;
+    width:auto;
+    position:relative;
+    /* line-height:25px; */
+}
+
+a.card_img>div {
+    position:absolute;
+    padding:0;
+    margin:0;
+    right: 210px; 
+    /* top: -18px;  */
+    /* background: transparent url(/generator/show-clickable-imge-link-on-hover_files/arrow-down-grey.png) left 23px no-repeat; */
+    
+    opacity:0;
+    height: 0;
+    overflow: visible ;
+    
+    /* Enable transitions */
+    /*-webkit-transition: all .3s ease .15s;
+    -moz-transition: all .3s ease .15s;
+    -o-transition: all .3s ease .15s;
+    -ms-transition: all .3s ease .15s;
+    transition: all .3s ease .15s;*/
+}
+
+a.card_img>div img {
+    /* padding:8px;
+    margin-right:4px; */
+    border:1px solid #BCBDC0;
+    background-color:#BCBDC0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+a.card_img:hover>div {
+    opacity:1;
+    height: 200px;
+    padding: 8px;   
+    z-index:1;
+}
+.data-text
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.dropdown-item:hover{background-color: rgb(192, 204, 255);}
+
+/* not used below */
+.selectable img {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #ffffff;
+}
+
+img.selected {
+    border-color: red; /* will overwrite color, only */
+}
+
+.blur {
+    filter: blur(3px);
+}

@@ -1,0 +1,139 @@
+{
+    "rebelAid": [
+        {
+            "name": "A Light in the Dark",
+            "id": 1,
+            "type": "G"
+        },
+        {
+            "name": "Strike Team Ambush",
+            "id": 2,
+            "type": "I"
+        },
+        {
+            "name": "Battle-Hardened",
+            "id": 3,
+            "type": "G"
+        },
+        {
+            "name": "Blaster Upgrade",
+            "id": 4,
+            "type": "G"
+        },
+        {
+            "name": "Combat Strength",
+            "id": 5,
+            "type": "G"
+        },
+        {
+            "name": "Communication Disruption",
+            "id": 6,
+            "type": "G"
+        },
+        {
+            "name": "Cut Them Off",
+            "id": 7,
+            "type": "G"
+        },
+        {
+            "name": "Disrupt Morale",
+            "id": 8,
+            "type": "G"
+        },
+        {
+            "name": "Field Hospital",
+            "id": 9,
+            "type": "I"
+        },
+        {
+            "name": "Guerilla Tactics",
+            "id": 10,
+            "type": "G"
+        },
+        {
+            "name": "Hidden Explosives",
+            "id": 11,
+            "type": "I"
+        },
+        {
+            "name": "Intelligence Report",
+            "id": 12,
+            "type": "I"
+        },
+        {
+            "name": "Medic!",
+            "id": 13,
+            "type": "I"
+        },
+        {
+            "name": "New Intel",
+            "id": 14,
+            "type": "I"
+        },
+        {
+            "name": "Personal Deflector Shields",
+            "id": 15,
+            "type": "G"
+        },
+        {
+            "name": "Pride of the Rebellion",
+            "id": 16,
+            "type": "G"
+        },
+        {
+            "name": "Rebel Commander",
+            "id": 17,
+            "type": "G"
+        },
+        {
+            "name": "Rush",
+            "id": 18,
+            "type": "I"
+        },
+        {
+            "name": "Sabotage",
+            "id": 19,
+            "type": "I"
+        },
+        {
+            "name": "Scout Report",
+            "id": 20,
+            "type": "I"
+        },
+        {
+            "name": "There is Hope",
+            "id": 21,
+            "type": "I"
+        },
+        {
+            "name": "Unexpected Help",
+            "id": 22,
+            "type": "I"
+        },
+        {
+            "name": "Bought Some Time",
+            "id": 23,
+            "type": "I"
+        },
+        {
+            "name": "Retreat",
+            "id": 24,
+            "type": "I"
+        },
+        {
+            "name": "He's With Us",
+            "id": 25,
+            "type": "I"
+        },
+        {
+            "name": "X-Wing Strafing Run",
+            "id": 26,
+            "type": "I"
+        },
+        {
+            "name": "Incompetent Officers",
+            "id": 27,
+            "type": "I"
+        }
+    ]
+}
