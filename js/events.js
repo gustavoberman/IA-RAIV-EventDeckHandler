@@ -24,6 +24,7 @@ const discardedEventDeckSizeHtmlElem = document.getElementById("drewEventDeckSiz
 const difficultyDropDown = document.getElementById("difficultyDropdownMenu");
 const drawBtn = document.getElementById("draw");
 const buildDeckBtn = document.getElementById("build");
+const saveDeckBtn = document.getElementById("save");
 const addRebelAidBtn = document.getElementById("addRA");
 const addImperialAgendaBtn = document.getElementById("AddIA");
 const discardSCardBtn = document.getElementById("discardSCard");
@@ -181,6 +182,7 @@ function buildDeck() {
     viewSpeicalGlobalCardArea.innerHTML = '';
     addRebelAidBtn.disabled = false;
     addImperialAgendaBtn.disabled = false;
+    saveDeckBtn.disabled = false;
 }
 
 function drawEvent() {
@@ -338,6 +340,7 @@ function loadDeck(input) {
         viewSpeicalGlobalCardArea.innerHTML = '';
         addRebelAidBtn.disabled = false;
         addImperialAgendaBtn.disabled = false;
+        saveDeckBtn.disabled = false;
     };
 
     reader.onerror = function () {
