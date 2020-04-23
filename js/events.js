@@ -3,6 +3,10 @@ var drew_card;
 var evt_deck = [], evt_drew_deck = [];
 var evt_t1 = [], evt_t2 = [], evt_t3 = [], evt_rebelAid = [], evt_imperialAgenda = [];
 
+//deploy vars
+var deploy_drew_card;
+var deploy_deck = [], deploy_drew_deck = [];
+
 //constant
 const evt_file_path = "images\\events";
 const evt_file_prefix = "Events - Single cards - All cards";
@@ -17,6 +21,12 @@ difficultyM.set("Youngling", [22, 3, 0]);
 difficultyM.set("Padawan", [13, 12, 0]);
 difficultyM.set("Jedi Knight", [8, 9, 8]);
 difficultyM.set("Jedi Master", [0, 12, 13]);
+
+//deploy const
+const deploy_file_path = "images\\deploy";
+const deploy_file_prefix = "Imperial AI - Single cards - All cards";
+const max_deploy_deck_size = 56;
+
 
 //config
 const eventDeckSizeHtmlElem = document.getElementById("eventDeckSize");
