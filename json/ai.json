@@ -1,0 +1,232 @@
+{
+    "AIs": [
+        {
+            "name": "Agent Blaise",
+            "id": 1
+        },
+        {
+            "name": "AT-ST",
+            "id": 2
+        },
+        {
+            "name": "Bantha Rider",
+            "id": 3
+        },
+        {
+            "name": "Bobba Fett",
+            "id": 4
+        },
+        {
+            "name": "Bossk",
+            "id": 5
+        },
+        {
+            "name": "Darth Vader",
+            "id": 6
+        },
+        {
+            "name": "Dengar",
+            "id": 7
+        },
+        {
+            "name": "E-Web Engineer",
+            "id": 8
+        },
+        {
+            "name": "General Sorin",
+            "id": 9
+        },
+        {
+            "name": "General Weiss",
+            "id": 10
+        },
+        {
+            "name": "Greedo",
+            "id": 11
+        },
+        {
+            "name": "Heavy Stormtrooper",
+            "id": 12
+        },
+        {
+            "name": "Hired Gun",
+            "id": 13
+        },
+        {
+            "name": "HK Assassin Droid",
+            "id": 14
+        },
+        {
+            "name": "IG-88",
+            "id": 15
+        },
+        {
+            "name": "Imperial Officer",
+            "id": 16
+        },
+        {
+            "name": "Junk Droid",
+            "id": 17
+        },
+        {
+            "name": "ISB Infiltrator",
+            "id": 18
+        },
+        {
+            "name": "Kayn Somos",
+            "id": 19
+        },
+        {
+            "name": "Nexu",
+            "id": 20
+        },
+        {
+            "name": "Probe Droid",
+            "id": 21
+        },
+        {
+            "name": "Royal Guard Champion",
+            "id": 22
+        },
+        {
+            "name": "Royal Guard",
+            "id": 23
+        },
+        {
+            "name": "SC2-M Repulsor Tank",
+            "id": 24
+        },
+        {
+            "name": "Stormtrooper",
+            "id": 25
+        },
+        {
+            "name": "Trandoshan Hunter",
+            "id": 26
+        },
+        {
+            "name": "Tusken Raider",
+            "id": 27
+        },
+        {
+            "name": "Ugnaught Tinkerer",
+            "id": 28
+        },
+        {
+            "name": "Wampa",
+            "id": 29
+        },
+        {
+            "name": "Wing Guard",
+            "id": 30
+        },
+        {
+            "name": "Captain Terro",
+            "id": 31
+        },
+        {
+            "name": "Dewback Rider",
+            "id": 32
+        },
+        {
+            "name": "Gamorrean Guard",
+            "id": 33
+        },
+        {
+            "name": "Jabba the Hutt",
+            "id": 34
+        },
+        {
+            "name": "Jet Trooper",
+            "id": 35
+        },
+        {
+            "name": "Rancor",
+            "id": 36
+        },
+        {
+            "name": "Salacious B. Crumb",
+            "id": 37
+        },
+        {
+            "name": "Weequay Pirate",
+            "id": 38
+        },
+        {
+            "name": "AT-DP",
+            "id": 39
+        },
+        {
+            "name": "Emperor Palpatine",
+            "id": 40
+        },
+        {
+            "name": "Riot Trooper",
+            "id": 41
+        },
+        {
+            "name": "Sentry Droid",
+            "id": 42
+        },
+        {
+            "name": "Maul",
+            "id": 43
+        },
+        {
+            "name": "Clawdite - Shapeshifter",
+            "id": 44
+        },
+        {
+            "name": "Clawdite - Senator",
+            "id": 45
+        },
+        {
+            "name": "Clawdite - Streetrat",
+            "id": 46
+        },
+        {
+            "name": "Clawdite - Scout",
+            "id": 47
+        },
+        {
+            "name": "Thrawn",
+            "id": 48
+        },
+        {
+            "name": "Death Trooper",
+            "id": 49
+        },
+        {
+            "name": "Loth Cat",
+            "id": 50
+        },
+        {
+            "name": "Hondo Ohnaka",
+            "id": 51
+        },
+        {
+            "name": "0-0-0",
+            "id": 52
+        },
+        {
+            "name": "BT-1",
+            "id": 53
+        },
+        {
+            "name": "Jawa Scavenger",
+            "id": 54
+        },
+        {
+            "name": "Snowtrooper",
+            "id": 55
+        },
+        {
+            "name": "The Grand Inquisitor",
+            "id": 56
+        },
+        {
+            "name": "",
+            "id": 
+        }
+    ]
+}
