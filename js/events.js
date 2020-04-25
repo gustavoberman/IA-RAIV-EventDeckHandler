@@ -26,7 +26,7 @@ difficultyM.set("Jedi Master", [0, 12, 13]);
 const deploy_file_path = "images\\deploy";
 const deploy_file_prefix = "Imperial AI - Single cards - All cards";
 const max_deploy_deck_size = 56;
-
+const deployDropDown = document.getElementById("deployDropdownMenu");
 
 //config
 const eventDeckSizeHtmlElem = document.getElementById("eventDeckSize");
